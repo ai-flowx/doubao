@@ -73,9 +73,9 @@ var (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "image",
-	Short: "doubao image",
-	Long:  "doubao image",
+	Use:   "vision",
+	Short: "doubao vision",
+	Long:  "doubao vision",
 	Run: func(cmd *cobra.Command, args []string) {
 		var provider Provider
 		var prompt Prompt

@@ -1,4 +1,4 @@
-module github.com/ai-flowx/doubao/image
+module github.com/ai-flowx/doubao/vision
 
 go 1.23.4
 

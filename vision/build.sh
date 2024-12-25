@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ldflags="-s -w"
-target="image"
+target="vision"
 
 go env -w GOPROXY=https://goproxy.cn,direct
 
