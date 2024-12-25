@@ -1,0 +1,4 @@
+name: doubao-vision-pro-32k
+url: https://ark.cn-beijing.volces.com/api/v3/chat/completions
+model: ep-*
+key: 8429f8ab-*

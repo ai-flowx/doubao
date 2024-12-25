@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ldflags="-s -w"
-target="chat"
+target="image"
 
 go env -w GOPROXY=https://goproxy.cn,direct
 
