@@ -1,0 +1,4 @@
+name: doubao-embedding-text-240715
+url: https://ark.cn-beijing.volces.com/api/v3/embeddings
+model: ep-*
+key: 8429f8ab-*

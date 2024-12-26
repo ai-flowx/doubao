@@ -1,4 +1,4 @@
-name: doubao-pro-256k
+name: doubao-pro-32k
 url: https://ark.cn-beijing.volces.com/api/v3/context/create
 model: ep-*
 key: 8429f8ab-*
