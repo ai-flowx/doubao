@@ -136,7 +136,7 @@ func runModel(_ context.Context, provider Provider, prompt Prompt) error {
 
 	buf := fmt.Sprintf(`{
 		"model": "%s",
-		"text": %s,
+		"text": %s
 	}`, provider.Model, p)
 
 	req, err := http.NewRequest("POST", provider.URL, bytes.NewBuffer([]byte(buf)))
