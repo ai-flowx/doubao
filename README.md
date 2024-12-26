@@ -12,4 +12,9 @@
 
 ## Extension
 
-- [doubao-chat-completions](https://www.volcengine.com/docs/82379/1362913)
+- [doubao-chat](https://www.volcengine.com/docs/82379/1298454)
+- [doubao-vision](https://www.volcengine.com/docs/82379/1362913)
+- [doubao-context](https://www.volcengine.com/docs/82379/1346559)
+- [doubao-context](https://www.volcengine.com/docs/82379/1346560)
+- [doubao-embedding](https://www.volcengine.com/docs/82379/1302003)
+- [doubao-tokenization](https://www.volcengine.com/docs/82379/1337112)

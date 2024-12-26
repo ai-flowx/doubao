@@ -33,7 +33,7 @@ type Messages struct {
 type Response struct {
 	Id                 string             `json:"id"`
 	Model              string             `json:"model"`
-	Ttl                string             `json:"ttl"`
+	Ttl                int                `json:"ttl"`
 	Mode               string             `json:"mode"`
 	TruncationStrategy TruncationStrategy `json:"truncation_strategy"`
 	Usage              Usage              `json:"usage"`
@@ -42,6 +42,7 @@ type Response struct {
 type TruncationStrategy struct {
 	Type             string `json:"type"`
 	LastHistoryToken int    `json:"last_history_token"`
+	RollingTokens    bool   `json:"rolling_tokens"`
 }
 
 type Usage struct {
@@ -154,8 +155,8 @@ func runModel(_ context.Context, provider Provider, prompt Prompt) error {
 		"mode": "session",
 		"ttl": 3600,
 		"truncation_strategy": {
-			"type": "last_history_tokens",
-			"last_history_tokens": 4096
+			"type": "rolling_tokens",
+			"rolling_tokens": true
 		}
 	}`, provider.Model, p)
 
