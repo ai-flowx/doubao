@@ -18,3 +18,4 @@
 - [doubao-context](https://www.volcengine.com/docs/82379/1346560)
 - [doubao-embedding](https://www.volcengine.com/docs/82379/1302003)
 - [doubao-tokenization](https://www.volcengine.com/docs/82379/1337112)
+- [image-to-base64](https://www.base64encoder.io/image-to-base64-converter/)
