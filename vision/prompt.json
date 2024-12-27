@@ -5,17 +5,6 @@
       "content": [
         {
           "type": "text",
-          "text": "图片主要讲了什么?"
-        },
-        {
-          "type": "image_url",
-          "image_url": {
-            "detail": "auto",
-            "url": "https://ark-project.tos-cn-beijing.volces.com/images/view.jpeg"
-          }
-        },
-        {
-          "type": "text",
           "text": "提取图片文字"
         },
         {
