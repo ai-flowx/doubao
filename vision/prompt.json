@@ -5,7 +5,7 @@
       "content": [
         {
           "type": "text",
-          "text": "提取图片文字"
+          "text": "提取图片文字，严格保留段落和内容格式"
         },
         {
           "type": "image_url",
