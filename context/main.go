@@ -160,7 +160,7 @@ func runModel(_ context.Context, provider Provider, prompt Prompt) error {
 		}
 	}`, provider.Model, p)
 
-	req, err := http.NewRequest("POST", provider.URL, bytes.NewBuffer([]byte(buf)))
+	req, err := http.NewRequest(http.MethodPost, provider.URL, bytes.NewBuffer([]byte(buf)))
 	if err != nil {
 		return err
 	}
